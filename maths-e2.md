@@ -10,8 +10,7 @@ Note: you may wish to write both $z_1$ and $z_2$ in exponential form.
 $|z_1 z_2| = |z_1||z_2|$
 
 In exponential form:  
-$
-z_1 = r_1e^{i\theta}                    \\
+$z_1 = r_1e^{i\theta}                    \\
 z_2 = r_2e^{i\phi}                      \\
 \begin{aligned}
 LHS &= |r_1e^{i\theta}r_2e^{i\phi}|     \\
