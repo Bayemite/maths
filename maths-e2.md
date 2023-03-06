@@ -9,16 +9,14 @@ Note: you may wish to write both $z_1$ and $z_2$ in exponential form.
 **(i)**
 $|z_1 z_2| = |z_1||z_2|$
 
-$
-\text{In exponential form:}  \\
-z_1 = r_1e^{i\theta}         \\
-z_2 = r_2e^{i\phi}           \\
-LHS = |r_1e^{i\theta}r_2e^{i\phi}|     \\
-    = |r_1r_2e^{i(\theta+\phi)}|       \\
-    = r_1r_2                           \\
-    = |z_1||z_2|                       \\
-    = RHS                              \\
-$
+In exponential form:  
+$z_1 = r_1e^{i\theta}         $  
+$z_2 = r_2e^{i\phi}           $  
+$LHS = |r_1e^{i\theta}r_2e^{i\phi}| $  
+$= |r_1r_2e^{i(\theta+\phi)}|    $  
+$= r_1r_2                        $  
+$= |z_1||z_2|                    $  
+$= RHS                           $  
 
 **(ii)**
 $\arg(z_1z_2) = \arg z_1 \arg z_2$
