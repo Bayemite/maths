@@ -81,12 +81,25 @@ that the interior angle sum of an *n*-gon is equal to $(n-2) \times 180$ degrees
 Suppose we draw on a plane *n* lines in 'general position', i.e. with no three concurrent and no two parallel.  
 Let $S_n$ be the number of regions into which these lines divide the plane, for example $S_3=7$ in the following diagram:
 
-![3 lines, 7 section graph](s_3.svg)
+![s_3 graph](s_3.svg)
 
 **(c.i)** By drawing diagrams, find $S_1, S_2, S_3, S_4$ and $S_5$.
 
-![S_1 graph](s_1.svg)
+![s_1 graph](s_1.svg)
+![s_2 graph](s_2.svg)
+![s_3 graph](s_3.svg)
+
+![s_4 graph](s_4.svg)
+![s_5 graph](s_5.svg)
 
 **(c.ii)** From these results, make a conjecture about a formula for $S_n$.
 
 **(c.iii)** Prove this formula by mathematical induction.
+
+
+<style>
+img{
+    border: 1px solid #000;
+    max-height: 50vh;
+}
+</style>
