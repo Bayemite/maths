@@ -42,7 +42,7 @@ Prove Euler's formula, that is, $\cos x+i\sin x=e^{ix}$
 and hence evalulate $e^{i\pi}$ (known as Euler's identity).
 
 ## Question 2 - Proof Techniques
-Using any of the proof techniques we hav ecovered, prove the following statements.  
+Using any of the proof techniques we have covered, prove the following statements.  
 Clearly state which method you are using.
 
 **(a)** The product of two consecutive even counting numbers is a multiple of 4.
