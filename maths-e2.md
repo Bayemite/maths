@@ -25,10 +25,9 @@ $= \theta+\phi                              $
 $= RHS                                      $  
 
 
-**(a.iii)** $\left|\dfrac{z_1}{z_2}\right| = \dfrac{|z_1|}{|z_2|}$
-
+**(a.iii)** $\left|\dfrac{z_1}{z_2}\right| = \dfrac{|z_1|}{|z_2|}$  
 $LHS = \left|\dfrac{r_1e^{i\theta}}{r_2e^{i\phi}} \right|   $  
-$= \left|\dfrac{r_1}{r_2}e^{i(\theta-\phi)} \right|   $  
+$= \left|\dfrac{r_1}{r_2}e^{i(\theta-\phi)} \right|         $  
 $= \dfrac{r_1}{r_2}                                         $  
 $= RHS                                                      $
 
@@ -84,6 +83,7 @@ $= RHS           $
 **(b)**
 Prove Euler's formula, that is, $\cos x+i\sin x=e^{ix}$
 and hence evalulate $e^{i\pi}$ (known as Euler's identity).  
+
 $f(x)=\dfrac{\cos x+i\sin x}{e^{ix}} $  
 $= e^{-i x}(\cos x+i\sin x)          $  
 $f'(x)=-ie^{-ix}(\cos x+i\sin x)     $
@@ -106,11 +106,21 @@ Hence, $e^{i\pi} = \cos\pi + i\sin\pi = -1$
 Using any of the proof techniques we have covered, prove the following statements.  
 Clearly state which method you are using.
 
-**(a)** The product of two consecutive even counting numbers is a multiple of 4.
+**(a)** The product of two consecutive even counting numbers is a multiple of 4.  
+By direct proof:  
+RTP: $2n(2n + 2) = 4M$, where $n, M \in\mathbb{Z} $  
+$LHS = 4n^2 + 4n $  
+$= 4(n^2 + n)    $  
+$= RHS           $
 
-**(b)** $\forall a,b\in \mathbb{Z}, a^2 = b^2,$ then $a = b$.
+**(b)** $\forall a,b\in \mathbb{Z}, a^2 = b^2,$ then $a = b$.  
+By direct proof:  
+$a^2 = b^2$  
+$\pm a = \pm b$  
 
-**(c)** There exists a number which is half the sum of its positive factors.
+**(c)** There exists a number which is half the sum of its positive factors.  
+Proof by example: 6 is such a number.  
+$1 + 2 + 3 + 6 = 12$
 
 **(d)** The number $\sqrt{5}$ is irrational.
 
