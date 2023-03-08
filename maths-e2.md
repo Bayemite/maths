@@ -82,9 +82,23 @@ $= 2a            $
 $= RHS           $
 
 **(b)**
-Prove Euler's formula, that is, $\cos x+i\sin x=e^{ix}$ 
+Prove Euler's formula, that is, $\cos x+i\sin x=e^{ix}$
 and hence evalulate $e^{i\pi}$ (known as Euler's identity).  
-$f'(\theta)$
+$f(x)=\dfrac{\cos x+i\sin x}{e^{ix}} $  
+$= e^{-i x}(\cos x+i\sin x)          $  
+$f'(x)=-ie^{-ix}(\cos x+i\sin x)     $
+$+ e^{-ix}(i\cos x-\sin x)           $  
+$= -e^{-ix}(i\cos x-\sin x)          $
+$+ e^{-ix}(i\cos x-\sin x)           $  
+$= 0$  
+Therefore $f(x)$ is a constant.  
+$f(0) = 1$, meaning that $f(x) = 1$  
+
+Therefore,  
+$1 = \dfrac{\cos x+i\sin x}{e^{ix}}$  
+$e^{ix} = \cos x+i\sin x$
+
+Hence, $e^{i\pi} = \cos\pi + i\sin\pi = -1$
 
 ---
 
