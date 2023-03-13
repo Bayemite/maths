@@ -9,10 +9,10 @@ and $z_2 = c + di = r_2(\cos\phi   +  i\sin\phi )$.
 Note: you may wish to write both $z_1$ and $z_2$ in exponential form.
 
 In exponential form:  
-$z_1 = r_1e^{i\theta}               $  
-$z_2 = r_2e^{i\phi}                 $
+$z_1 = r_1e^{i\theta} $  
+$z_2 = r_2e^{i\phi}   $
 
-**(a.i)**  $|z_1 z_2| = |z_1||z_2|$  
+**(a.i)**  $|z_1 z_2| = |z_1||z_2|  $  
 $LHS = |r_1e^{i\theta}r_2e^{i\phi}| $  
 $= |r_1r_2e^{i(\theta+\phi)}|       $  
 $= r_1r_2                           $  
@@ -122,18 +122,55 @@ $\pm a = \pm b$
 Proof by example: 6 is such a number.  
 $1 + 2 + 3 + 6 = 12$
 
-**(d)** The number $\sqrt{5}$ is irrational.
+**(d)** The number $\sqrt{5}$ is irrational.  
+Proof by contradiction:  
+$\sqrt{5} = \dfrac{a}{b}$, where $a, b \in\mathbb{Z}$ and are co-prime.
 
-**(e)** Within any group of $n\geq 2$ people, there are at least two people who have met with the same number of people.
+$5 = \left(\dfrac{a}{b}\right)^2 $  
+$5b^2 = a^2                      $  
+Therefore, both $a^2$ and $a$ are divisible by 5.  
+Let $a = 5k, k \in\mathbb{Z} $  
+$5b^2 = (5k)^2               $  
+$b^2 = 5k^2                  $  
+Therefore $b$ is divisible by 5, which is a contradiction 
+as $\dfrac{a}{b}$ is meant to be in simplest form.  
+This is a problem because this implies there are an infinite set of decreasing integer pairs
+that represent the equivalent fraction, which is impossible.
+
+$\therefore\sqrt{5}$ is irrational by contradiction.
+
+**(e)** Within any group of $n\geq 2$ people, there are at least two people who have met with the same number of people.  
+There are a maximum of $n-1$ people to meet, as meeting yourself is not counted.  
+As according to the pigeon-hole principle, this means there will always be at least $2$ people who have met
+the same number of people.
 
 ---
 
 ## Question 3 - The Triangle Inequality
 
-**(a)** State the triangle inequality both in words and using mathematical symbols.
+**(a)** State the triangle inequality both in words and using mathematical symbols.  
+The triangle inequality states that for any triangle,
+the length sum of any two sides will be greater than that of the third side.  
+$z \leq x + y$, where $x, y, z$ are the side lengths of a triangle.  
 
 **(b)** Prove the triangle inequality using two different methods. You are encouraged to research this.
 Include references to any sources you used.
+
+Vector Proof  
+∥u+v∥2=∥u∥2+2(u⋅v)+∥v∥2.
+By the Cauchy-Schwarz Inequality we have
+u⋅v≤∥u∥⋅∥v∥.
+So,
+∥u+v∥2=∥u∥2+2(u⋅v)+∥v∥2≤∥u∥2+2∥u∥⋅∥v∥+∥v∥2=(∥u∥+∥v∥)2,
+i.e.,
+∥u+v∥2≤(∥u∥+∥v∥)2⟹∥u+v∥≤∥u∥+∥v∥.
+The Cauchy-Schwarz Inequality holds for any inner Product, so the triangle inequality holds irrespective of how you define the norm of the vector to be, i.e., the way you define scalar product in that vector space.
+
+In this case, the equality holds when vectors are parallel i.e, u=kv
+, k∈R+
+ because u⋅v=∥u∥⋅∥v∥cosθ
+ when cosθ=1
+, the equality of the Cauchy-Schwarz inequality holds.
 
 **(c)** Summarise each of the proofs from **(b)** and highlight the similarities and differences between the two proofs.
 
@@ -143,39 +180,81 @@ Include references to any sources you used.
 
 ## Question 4 - Quadrilateral and Polygon Properties
 
-**(a.i)** Prove that the axis of a kite is the perpendicular bisector of the other diagonal.
+**(a.i)** Prove that the axis of a kite is the perpendicular bisector of the other diagonal.  
+Definition of a kite:
+A quadrilateral that has 2 pairs of equal-length sides and these sides are adjacent to each other.
+
+(See graph in question **a.ii**)  
+Let $AC$ and $BD$ cross at $E$.  
+$AB=CB, AD=CD, BD$ is common.  
+$\therefore△ABD\equiv△CBD$ (SSS $△$ equivalence)
+
+$\angle{ABE}=\angle{CBE}, AB = CB, BE$ is common.  
+$\therefore△ABE\equiv△CBE$ (SSA $△$ equivalence)  
+From this congruence: $\angle BEC=\angle BEA$  
+Because these two angles are on a straight line and are equal,
+they are both $90\degree$ (supplementary angles).
+
+Therefore $AC$ is perpendicular to $BD$.  
+$AE$ and $AC$ are equal, because $△ABE\equiv△CBE, AB=BC, BE$ is common.  
+Therefore $AC$ bisects, and is perpendicular, to $BD$.
 
 **(a.ii)** Demonstrate this using Geogebra or similar technology.
 
+![Kite graph](kite.svg)
+
+Black line has length of 2 on either side of the bisecting orange line.
+
 **(b.i)** Prove, by mathematical induction, 
 that the interior angle sum of an *n*-gon is equal to $(n-2) \times 180$ degrees for all integers, $n \geq 3$.
+
+Required to prove: 
+angle sum $= (n-2)\times180\degree$.
+
+Prove for the first case ($n=3$):  
+$LHS = 180\degree$ (angle sum of a triangle)  
+$RHS = (3-2)\times180 = 180\degree$  
+$= LHS$
+
+Assume true for $n=k$:  
+$(k-2)\times 180\degree$
+
+Prove for $n=k+1$:  
+
 
 **(b.ii)** Hence prove that the exterior angle sum of an *n*-gon is $360\degree$.
 
 **(c)**
 Suppose we draw on a plane *n* lines in 'general position', i.e. with no three concurrent and no two parallel.  
-Let $S_n$ be the number of regions into which these lines divide the plane, for example $S_3=7$ in the following diagram:
-
-![s_3 graph](s_3.svg)
+Let $S_n$ be the number of regions into which these lines divide the plane.
 
 **(c.i)** By drawing diagrams, find $S_1, S_2, S_3, S_4$ and $S_5$.
 
-![s_1 graph](s_1.svg)
-![s_2 graph](s_2.svg)
-![s_3 graph](s_3.svg)
-![s_4 graph](s_4.svg)
+![s_1 graph](s_1.svg)  
+![s_2 graph](s_2.svg)  
+![s_3 graph](s_3.svg)  
+![s_4 graph](s_4.svg)  
 ![s_5 graph](s_5.svg)
 
 $S_1 = 2, S_2 = 4, S_3 = 7, S_4 = 11, S_5 = 16$
 
-**(c.ii)** From these results, make a conjecture about a formula for $S_n$.
+**(c.ii)** From these results, make a conjecture about a formula for $S_n$.  
+$S_n = n + S_{n-1}   $  
+$= n + (n-1+S_{n-2}) $
 
-**(c.iii)** Prove this formula by mathematical induction.
+**(c.iii)** Prove this formula by mathematical induction.  
+The first case, $n = 1$, is true:  
+$LHS = 2$   
+$RHS = 1 + S_0 = 2$ (as $S_0 = 0$)  
+$= LHS$
 
+Assume $n = k$ is true:  
+$S_k = k + S_{k-1}$
+
+Prove true for $n = k+1$:  
+$RTP: S_{k+1} = k+1 + S_k    $  
+$RHS = k + 1 + (k + S_{k-1}) $
 
 <style>
-img{
-    border: 1px solid #000;
-    max-height: 30vh;
-}
+    img{border: 1px solid #c8ccd1; max-height: 50vh;}
 </style>
