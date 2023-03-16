@@ -153,24 +153,16 @@ The triangle inequality states that for any triangle,
 the length sum of any two sides will be greater than that of the third side.  
 $z \leq x + y$, where $x, y, z$ are the side lengths of a triangle.  
 
+Or: $|x+y|\geq |x| + |y|$
+
 **(b)** Prove the triangle inequality using two different methods. You are encouraged to research this.
 Include references to any sources you used.
 
-Vector Proof  
-∥u+v∥2=∥u∥2+2(u⋅v)+∥v∥2.
-By the Cauchy-Schwarz Inequality we have
-u⋅v≤∥u∥⋅∥v∥.
-So,
-∥u+v∥2=∥u∥2+2(u⋅v)+∥v∥2≤∥u∥2+2∥u∥⋅∥v∥+∥v∥2=(∥u∥+∥v∥)2,
-i.e.,
-∥u+v∥2≤(∥u∥+∥v∥)2⟹∥u+v∥≤∥u∥+∥v∥.
-The Cauchy-Schwarz Inequality holds for any inner Product, so the triangle inequality holds irrespective of how you define the norm of the vector to be, i.e., the way you define scalar product in that vector space.
-
-In this case, the equality holds when vectors are parallel i.e, u=kv
-, k∈R+
- because u⋅v=∥u∥⋅∥v∥cosθ
- when cosθ=1
-, the equality of the Cauchy-Schwarz inequality holds.
+**Proof 1**:  
+Property of absolute values:  
+$x \leq |x|$ and $y \leq |y|$  
+Therefore:  
+$x+y \leq |x|+|y|$
 
 **(c)** Summarise each of the proofs from **(b)** and highlight the similarities and differences between the two proofs.
 
