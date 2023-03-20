@@ -108,8 +108,6 @@ $e^{ix} = \cos x+i\sin x$
 
 Hence, $e^{i\pi} = \cos\pi + i\sin\pi = -1$
 
----
-
 ## Question 2 - Proof Techniques
 Using any of the proof techniques we have covered, prove the following statements.  
 Clearly state which method you are using.
@@ -159,8 +157,6 @@ the same number of people.
 For the case $n=2$:  
 Meeting no-one means that the other person also meets no-one.  
 Meeting 1 person means that 1 person also meets you.
-
----
 
 ## Question 3 - The Triangle Inequality
 
@@ -217,8 +213,6 @@ Proof 2 squares both sides of the inequality to allow binomial expansion to prov
 
 I prefer Proof 2, as it is more algebraically direct, with no need
 to account for edge cases such as negatives for $a,b$ in case 2.
-
----
 
 ## Question 4 - Quadrilateral and Polygon Properties
 
