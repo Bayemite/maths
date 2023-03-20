@@ -190,27 +190,28 @@ Use the table to answer the following questions.
 (a) What is the present value of an annuity of $200 per month for 71 months if the interest rate is 0.75% per
 month?
 
-A $11 095.38 **B** $10 978.58 C $11 928.24 D $10 801.50
+A $11 095.38 **B $10 978.58** C $11 928.24 D $10 801.50
 
 (b) What is the present value of an annuity of $150 per month for 74 months if the interest rate is 0.8% per
 month?
 
-A $8078.46 B $8268.49 **C** $8352.68 D $8435.19
+A $8078.46 B $8268.49 **C $8352.68** D $8435.19
 
 (c) A loan of $20 000 is to be repaid in equal monthly instalments over 6 years. The interest rate is 10.8% per
 annum. What are the monthly repayments, rounded to the next dollar?
 
-A $379 B $367 C $361 D $375
+$20000=52.8212P$
+
+**A $379** B $367 C $361 D $375
 
 (d) A loan of $8000 is to be repaid in equal monthly instalments over 6 years. The interest rate is 9% per
 annum. What are the monthly repayments, rounded to the next dollar?
 
-A $146 B $143 C $140 D $145
+A $146 B $143 C $140 **D $145**
 
 ## 9.
 The table gives the contribution per period for an annuity with a future value of $1 at different interest rates
 and different periods of time.
-Contributions per period for an annuity with a future value of $1.
 
 | N  |  0.25% |  0.5%  | 0.75%  | 1%     | 1.25%  | 1.5%   |
 | -- | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -230,12 +231,21 @@ Contributions per period for an annuity with a future value of $1.
 quarterly contributions into an investment account which pays interest at 4% p.a. How much do they
 need to contribute each quarter to reach this savings goal?
 
+$P=100000 \times 0.0788$  
+$=\$7880$
+
 (b) Beatrice is saving for a deposit to buy a car. She needs to save $3000 in a year. How much must she pay
 into an investment account each month, if the interest is 3% p.a., calculated monthly, to reach this goal?
+
+$P=3000 \times 0.0822$  
+$=\$246.60$
 
 (c) Danh is starting a superannuation fund. He wishes to have $1 000 000 in the account after 12 years.
 Interest is 3% p.a. If he makes a deposit to this account every six months, how much should he deposit,
 rounded to the next dollar, to be sure that he reaches his goal?
+
+ $P=1000000 \times 0.0349$  
+ $=\$34900$
 
 ## 10.
 *Use the table of values given in question 5 to answer question 10.*
@@ -245,11 +255,22 @@ compounded yearly.
 
 (a) How much money is in the account after 3 years?
 
+$A=3000 \times 1.093$
+$=3279$
+
 (b) As an incentive, the bank said that they would double the interest rate after 3 years. If Fabio leaves the
 money in this account for another 3 years, what is the value of the investment at the end of this time?
+
+$A=3279*1.191$
+$= 3905.289$
 
 (c) Another bank offered Fabio an interest rate of 4% p.a., compounded six monthly for the first 3 years
 and then an interest rate of 5% p.a. compounded yearly for the next 3 years. What is the value of the
 investment at the end of 6 years with this bank?
 
+$A=3000 \times 1.126 \times 1.158$
+$= 3911.724$
+
 (d) Which investment strategy gives the best result?
+
+The other bank is better in this situation.
