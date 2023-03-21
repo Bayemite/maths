@@ -245,6 +245,7 @@ Therefore $AC$ bisects, and is perpendicular, to $BD$.
 
 ![Kite graph](kite.svg)
 
+$AB = BC, AD = CD$  
 Here, $AE=EC=2$ on either side of the bisecting $BD$ line.
 
 **(b.i)** Prove, by mathematical induction, 
