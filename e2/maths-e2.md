@@ -171,9 +171,14 @@ Or: $|x+y|\leq |x| + |y|$
 **(b)** Prove the triangle inequality using two different methods. You are encouraged to research this.
 Include references to any sources you used.
 
-**Proof 1**, from 
-[https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality](https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality)  
-As $x\leq|x|, y\leq|y|$:
+**Proof 1**, from
+[https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality](https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality)
+
+Because  
+(1) $x \geq 0 \implies x=|x|$  
+(2) $x<0 \implies x<|x|$
+
+Then $x\leq|x|$ and $y\leq|y|$
 
 Case 1:  
 $x+y\leq|x|+y\leq |x|+|y|$
@@ -182,8 +187,9 @@ Case 2:
 $-x-y\leq|-x|-y\leq|-x| + |-y|$  
 $-x-y\leq|x|+|y|$
 
-Therefore,  
-$|x|+|y|\leq|x+y|$, as the sign of $x,y$ on the $LHS$ does not affect the equivalent $RHS$.
+Because the sign of $x,y$ on the $LHS$ does not affect the equivalent $RHS$,  
+and that $x=|-x|=|x|$  
+we can conclude that $|x|+|y|\leq|x+y|$, as required.
 
 **Proof 2**, from
 [https://www.youtube.com/watch?v=lj765RaxreE](https://www.youtube.com/watch?v=lj765RaxreE)  
