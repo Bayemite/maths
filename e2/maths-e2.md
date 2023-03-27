@@ -172,7 +172,7 @@ the length sum of any two sides will be greater or equal to that of the third si
 
 $z \leq x + y$, where $x, y, z$ are the side lengths of a triangle.  
 
-Or: $|x+y|\leq |x| + |y|$
+Or: $|x+y|\leq |x| + |y|$, for $x, y \in\mathbb{R}$.
 
 **(b)** Prove the triangle inequality using two different methods. You are encouraged to research this.
 Include references to any sources you used.
@@ -193,24 +193,25 @@ Case 2:
 $-x-y\leq|-x|-y\leq|-x| + |-y|$  
 $-x-y\leq|x|+|y|$
 
-Because the sign of $x,y$ on the $LHS$ does not affect the equivalent $RHS$,  
-and that $x=|-x|=|x|$  
-we can conclude that $|x|+|y|\leq|x+y|$, as required.
+As $|x+y|$ will always be equal to the maximum of $x+y$ or $-(x+y)$,  
+we can say that $LHS = |x+y|$,  
+and conclude that $|x+y|\leq|x|+|y|$, as required.
 
 **Proof 2**, from
 [https://www.youtube.com/watch?v=lj765RaxreE](https://www.youtube.com/watch?v=lj765RaxreE)  
-For $x, a, b \in\mathbb{Z}$,  
-$RTP: (|a|+|b|)^2 \geq |a+b|^2$  
-$LHS = |a|^2 + 2|a||b| + |b|^2$
+$RTP: (|x|+|y|)^2 \geq |x+y|^2$  
+$LHS = |x|^2 + 2|x||y| + |y|^2$
 
-Because $|x|^2=x^2$, and $|x|\geq x$  
-$LHS \geq a^2 + 2ab + b^2$  
-$=(a+b)^2$  
-$=|a+b|^2$  
+Because $|a|\geq a, |a|^2 = a^2, a \in\mathbb{R}$,  
+$LHS \geq x^2 +2xy + y^2$  
+$=(x+y)^2$  
+$=|x+y|^2$  
 $=RHS$
 
-Therefore, $(|a|+|b|)^2 \geq |a+b|^2$  
-and $|a|+|b| \geq |a+b|$, as required.
+Therefore, $(|x|+|y|)^2 \geq |x+y|^2$.
+
+Because both sides are $\geq 0$,  
+we can conclude that $|x|+|y| \geq |x+y|$, as required.
 
 **(c)** Summarise each of the proofs from **(b)** and highlight the similarities and differences between the two proofs.
 
