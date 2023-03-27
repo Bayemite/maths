@@ -154,9 +154,15 @@ And assuming that meeting another person also means they meet you,
 then according to the pigeon-hole principle, this means there will always be at least $2$ people who have met
 the same number of people.
 
-For the case $n=2$:  
-Meeting no-one means that the other person also meets no-one.  
-Meeting 1 person means that 1 person also meets you.
+Proof by pigeonhole principle:  
+The minimum amount of people someone can meet is $0$.
+The maximum number of people someone can meet is $n-1$.
+If someone meets $0$ people, than the maximum amount of
+people that can be met becomes $n-2$.  
+Therefore, there is always a maximum of $k-1$ people
+to meet from a group of $k$ people.  
+Therefore, there will always be at least two people
+who meet the same number of people.
 
 ## Question 3 - The Triangle Inequality
 
@@ -318,7 +324,7 @@ Also seems to fit $\frac{n^2+n+2}{2}$
 
 **(c.iii)** Prove this formula by mathematical induction.  
 
-We can prove the formula given the recursive definition.
+We can prove the formula given the recursive definition is true.
 
 The first 5 cases are true:  
 $n=1: \frac{1^2+1+2}{2}=2 $  
@@ -345,5 +351,5 @@ given that the $S_n$ recursive definition is true.
 ---
 
 <style>
-    img{border: 1px solid #c8ccd1; max-height: 50vh;}
+    img{border: 1px solid #c8ccd1; max-height: 20vh; }
 </style>
