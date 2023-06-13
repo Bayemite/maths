@@ -339,11 +339,11 @@ $S_k = k + S_{k-1}, S_k = \frac{k^2+k+2}{2}$
 
 Prove true for $n = k+1$:  
 $RTP: S_{k+1} = \frac{(k+1)^2+(k+1)+2}{2}$  
-$RHS = \frac{k^2+3k+3}{2}$  
+$RHS = \frac{k^2+3k+4}{2}$  
 $LHS = k+1 + S_k$  
 $= k+1 + \frac{k^2+k+2}{2}$  
 $= \frac{k^2+k+2+2(k+1)}{2}$  
-$= \frac{k^2+3k+3}{2}$  
+$= \frac{k^2+3k+4}{2}$  
 $= RHS$
 
 Therefore $\frac{n^2+n+2}{2}$ is true by induction,
