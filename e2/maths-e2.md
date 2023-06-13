@@ -45,7 +45,7 @@ $= RHS          $
 
 **(a.v)** $|z^n_1| = |z_1|^n$  
 $LHS = |(r_1e^{i\theta})^n| $  
-$= |r_1e^{ni\theta}|        $  
+$= |r^n_1e^{ni\theta}|        $  
 $= r_1^n                    $  
 $= RHS                      $  
 
